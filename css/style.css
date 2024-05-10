@@ -1,0 +1,42 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7; /* Color de fondo */
+}
+
+/* Estilos específicos para la tabla de repaso de CSS */
+table {
+    width: 80%; /* ajusta este valor según tus necesidades */
+    border: 2px solid #000000; /* color del borde y grosor */
+    border-collapse: collapse;
+    background-color: #dddddd; /* Cambiado a gris */
+    margin: 20px; /* Margen exterior */
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Cambio de color cada dos líneas */
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Color de fondo para líneas impares */
+}
+
+/* Estilos para resaltar las declaraciones y descripciones */
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+/* Otros estilos según sea necesario */
